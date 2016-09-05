@@ -1,0 +1,27 @@
+
+<div>
+<table>
+  <tr>
+    <td>Year</td>
+    <td>Above 500</td>
+    <td>Below 500</td>
+  </tr>
+  <tr ng-repeat='c in crime'>
+    <td>{{c.year}}</td>
+    <td>{{c.above_500}}</td>
+    <td>{{c.under_500}}</td>
+  </tr>
+</table>
+<input type="button" name="name" value="find length" ng-click='findLen()'></input>
+</div>
+<!--
+<html>
+<head></head>
+<body>
+<div ng-transclude>
+<h1>{{name}}</h1>
+</div>
+</body>
+</html>
+
+-->
